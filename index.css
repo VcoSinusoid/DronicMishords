@@ -11,7 +11,7 @@
 .LeftBar {
 	width: 20%;
 	background-image: url("assets/left-bar.png");
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-position: top;
 	background-size: contain;	
 }
@@ -19,7 +19,7 @@
 .RightBar {
 	width: 20%;
 	background-image: url("assets/right-bar.png");
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-position: top;
 	background-size: contain;
 }
