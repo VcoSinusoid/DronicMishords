@@ -1,1 +1,61 @@
 
+.Main {
+	display: flex;
+	min-height: 100vh;
+	background-image: url("assets/back.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #1B6E79;
+}
+
+.LeftBar {
+	width: 20%;
+	background-image: url("assets/left-bar.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;	
+}
+
+.Content {
+	width: 60%;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.Content__heading {
+
+}
+
+.Content__title {
+	font-size: 48px;
+	line-height: 62px;	
+}
+
+.Content__subtitle {
+	font-size: 18px;
+	line-height: 23px;		
+}
+
+.Content__bottom {
+
+}
+
+.Content__promoText {
+	font-size: 24px;
+	line-height: 31px;			
+}
+
+p, h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+	color: #FFBF85;
+	text-shadow:
+		3px 3px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;	    
+}
