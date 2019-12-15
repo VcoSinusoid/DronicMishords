@@ -12,8 +12,16 @@
 	width: 20%;
 	background-image: url("assets/left-bar.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: contain;	
+}
+
+.RightBar {
+	width: 20%;
+	background-image: url("assets/right-bar.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
 }
 
 .Content {
@@ -42,6 +50,15 @@
 
 .Content__bottom {
 
+}
+
+.Content__formWish {
+	min-height: 100px;
+}
+
+.Content__formElement {
+	width: 100%;
+	margin-bottom: 40px;
 }
 
 .Content__promoText {
